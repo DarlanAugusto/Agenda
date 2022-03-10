@@ -121,3 +121,55 @@ td {
     color: #000;
     background-color: #eef115;
 }
+
+#container-create {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.create input {
+   width: 475px;
+   background-color: transparent;
+   border: 2px solid #000 ;
+   border-radius: 10px;
+   padding: 10px;
+   color: #242323;
+   outline-style: none;
+   font-size: 15px;
+}
+
+textarea {
+    width: 475px;
+    background-color: transparent;
+    border: 2px solid #000 ;
+    border-radius: 10px;
+    padding: 10px;
+    color: #242323;
+    outline-style: none;
+    font-size: 15px;
+    resize: none;
+}
+
+.create label {
+    color: #242323;
+    font-size: 20px;
+}
+
+.upp{
+    text-transform: uppercase;
+}
+
+.btn {
+    font-size: 16px;
+    text-decoration: none;
+    color: #eef115;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px; 
+    float: left;
+}
