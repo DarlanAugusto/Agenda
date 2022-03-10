@@ -22,7 +22,7 @@ header {
 
 .fa-clipboard-list {
     font-size: 45px;
-    color: #000;
+    color: #242323;
     height: 70px;
     line-height: 70px;
 
@@ -45,7 +45,7 @@ ul,li {
 }
 
 li a {
-    color: #000;
+    color: #242323;
     text-transform: uppercase;
     list-style: none;
     text-decoration: none;
@@ -69,6 +69,9 @@ li a:hover {
     border: 3px solid #eef115;
     padding: 15px;
     font-size: 22px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 th {
@@ -118,7 +121,7 @@ td {
 }
 
 #backBtn a:hover {
-    color: #000;
+    color: #242323;
     background-color: #eef115;
 }
 
@@ -126,7 +129,7 @@ td {
     width: 500px;
     height: 300px;
     margin: 0 auto;
-    background-color: #f0f0f0;
+    background-color: #fff;
     border-radius: 15px;
     padding: 15px;
 }
@@ -134,7 +137,7 @@ td {
 .create input {
    width: 475px;
    background-color: transparent;
-   border: 2px solid #000 ;
+   border: 2px solid #242323 ;
    border-radius: 10px;
    padding: 10px;
    color: #242323;
@@ -145,7 +148,7 @@ td {
 textarea {
     width: 475px;
     background-color: transparent;
-    border: 2px solid #000 ;
+    border: 2px solid #242323 ;
     border-radius: 10px;
     padding: 10px;
     color: #242323;
@@ -167,9 +170,9 @@ textarea {
     font-size: 16px;
     text-decoration: none;
     color: #eef115;
-    background-color: #000;
+    background-color: #242323;
     border: 1px solid #fff;
-    border-radius: 5px;
-    padding: 5px; 
+    border-radius: 10px;
+    padding: 8px; 
     float: left;
 }
