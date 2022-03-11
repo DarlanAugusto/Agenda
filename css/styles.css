@@ -125,7 +125,8 @@ td {
     background-color: #eef115;
 }
 
-#container-create {
+#container-create,
+#container-edit {
     width: 500px;
     height: 300px;
     margin: 0 auto;
@@ -134,7 +135,7 @@ td {
     padding: 15px;
 }
 
-.create input {
+.create input, .edit input {
    width: 475px;
    background-color: transparent;
    border: 2px solid #242323 ;
@@ -157,7 +158,7 @@ textarea {
     resize: none;
 }
 
-.create label {
+.create label, .edit label {
     color: #242323;
     font-size: 20px;
 }
@@ -182,4 +183,14 @@ p#msg {
     background-color: #000;
     font-size: 20px;
     padding: 15px;
+}
+
+@media(max-width: 480px) {
+    #home-link {
+        display: none;
+    }
+
+    ul, li {
+        height: auto;
+    }
 }

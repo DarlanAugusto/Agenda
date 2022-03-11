@@ -31,7 +31,7 @@ if(isset($_SESSION['msg'])) {
 <nav>
 <a href="<?=$BASE_URL?>index.php"><i class="fa-solid fa-clipboard-list"></i></a>
     <ul>
-        <li><a href="<?php echo $BASE_URL?>index.php">Agenda</a></li>
+        <li><a id="home-link" href="<?php echo $BASE_URL?>index.php">Agenda</a></li>
         <li><a href="<?php echo $BASE_URL?>create.php">Adicionar contato</a></li>
     </ul>
 </nav>

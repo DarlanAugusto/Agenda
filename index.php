@@ -27,7 +27,7 @@ include_once("templates/header.php");
                         <td scope="row"><?php echo $contact["phone"]; ?></td>
                         <td class = "actions">
                             <a href="<?php echo $BASE_URL ?>show.php?id=<?php echo $contact["id"]; ?>"><i class="fa-solid fa-eye"></i></a>
-                            <a href="<?php echo $BASE_URL ?>#"><i class="fa-solid fa-pen-to-square"></i></a>
+                            <a href="<?php echo $BASE_URL ?>edit.php?id=<?php echo $contact["id"]; ?>"><i class="fa-solid fa-pen-to-square"></i></a>
                             <a href="<?php echo $BASE_URL ?>#"><i class="fa-solid fa-trash-can"></i></a>
                         </td>
                     </tr>
