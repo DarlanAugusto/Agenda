@@ -11,7 +11,7 @@ include_once("templates/header.php");
 
             <div class="create">
                 <label class="subtitle" for="name">Nome:</label>
-                <input class="upp" type="text" name="name" id="name" required>
+                <input class="upp" type="text" name="nome" id="nome" required>
 
                 <label class="subtitle" for="phone">Telefone:</label>
                 <input class="upp" type="text" name="phone" id="phone" required>
