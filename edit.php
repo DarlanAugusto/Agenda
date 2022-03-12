@@ -7,9 +7,9 @@ include_once("templates/header.php");
     <h1 id="main-title">Editar Contato</h1>
     <div id="container-edit">
         <form action="<?php echo $BASE_URL?>config/process.php" method ="POST">
-            <input type="hidden" name="type" value ="edit">
-            <input type="hidden" name="id" value="">
-
+            <input type="hidden" name="type" value="edit">
+            <input type="hidden" name="id" value="<?php echo $contact["id"]?>">
+            
             <div class="edit">
                 <label class="subtitle" for="name">Nome:</label>
                 <input class="upp" type="text" name="nome" id="nome" value ="<?php echo $contact["nome"]?>" required>

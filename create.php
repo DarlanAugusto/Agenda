@@ -11,13 +11,13 @@ include_once("templates/header.php");
 
             <div class="create">
                 <label class="subtitle" for="name">Nome:</label>
-                <input class="upp" type="text" name="nome" id="nome" required>
+                <input placeholder="Digite seu nome" class="upp" type="text" name="nome" id="nome" required>
 
                 <label class="subtitle" for="phone">Telefone:</label>
-                <input class="upp" type="text" name="phone" id="phone" required>
+                <input placeholder="Digite seu telefone" class="upp" type="text" name="phone" id="phone" required>
 
                 <label class="subtitle" for="obs">Observações:</label>
-                <textarea name="observations" id="observations" cols="30" rows="4"></textarea>
+                <textarea name="observations" placeholder="..." id="observations" cols="30" rows="4"></textarea>
             </div>
             <button class="btn" type="submit">Cadastrar</button>
         </form>
