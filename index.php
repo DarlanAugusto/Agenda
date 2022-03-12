@@ -28,7 +28,11 @@ include_once("templates/header.php");
                         <td class = "actions">
                             <a href="<?php echo $BASE_URL ?>show.php?id=<?php echo $contact["id"]; ?>"><i class="fa-solid fa-eye"></i></a>
                             <a href="<?php echo $BASE_URL ?>edit.php?id=<?php echo $contact["id"]; ?>"><i class="fa-solid fa-pen-to-square"></i></a>
-                            <a href="<?php echo $BASE_URL ?>#"><i class="fa-solid fa-trash-can"></i></a>
+                            <form action="<?php echo $BASE_URL ?>config/process.php" method="POST">
+                                <input type="hidden" name="type" value="delete">
+                                <input type="hidden" name="id" value="<?php echo $contact["id"]?>">
+                                <button type="submit"><i class="fa-solid fa-trash-can"></i></button>
+                            </form>
                         </td>
                     </tr>
                 <?php endforeach; ?>
