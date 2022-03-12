@@ -100,7 +100,7 @@ td {
     font-size: 22px;
 }
 
-#main-title {
+.main-title {
     text-align: center;
     font-size: 25px;
     margin-bottom: 30px;
@@ -200,6 +200,64 @@ p#msg {
     ul, li {
         height: auto;
     }
+
+    li a {
+        font-size: 12px;
+    }
+
+    .table {
+        text-align: center;
+        border: 3px solid #eef115;
+        padding: 10px;
+        font-size: 12px;
+        border-radius: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    th {
+        padding: 5px;
+        width: 100px;
+    }
+
+    .fa-clipboard-list {
+        font-size: 40px;
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    #container-create,
+    #container-edit {
+    width: 275px;
+    }
+
+    .create input, .edit input {
+    width: 260px;
+    padding: 5px;
+    font-size: 14px;
+ }
+
+ 
+.create label, .edit label {
+    color: #242323;
+    font-size: 15px;
+}
+
+textarea {
+    width: 250px;
+}
+
+.create, .edit {
+    margin-top: 20px;
+}
+ 
+
 }
 
 form {

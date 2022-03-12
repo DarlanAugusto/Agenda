@@ -4,7 +4,7 @@ include_once("templates/header.php");
 
 ?>
     
-    <h1 id="main-title">Criar Contato</h1>
+    <h1 class="main-title">Criar Contato</h1>
     <div id="container-create">
         <form action="<?php echo $BASE_URL?>config/process.php" method ="POST">
             <input type="hidden" name="type" value ="create">

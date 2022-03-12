@@ -8,7 +8,7 @@ include_once("templates/header.php");
     <?php if(isset($printMsg) && $printMsg != ''): ?>
         <p class="bold" id="msg"><?php echo $printMsg?></p>
     <?php endif;?>
-    <h1 id="main-title">Minha Agenda</h1>
+    <h1 class="main-title">Minha Agenda</h1>
     <?php if(count($contacts ) > 0 ): ?>
         <table class="table">
             <thead>
