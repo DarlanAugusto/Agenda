@@ -241,25 +241,25 @@ p#msg {
     width: 260px;
     padding: 5px;
     font-size: 14px;
- }
+    }
 
  
-.create label, .edit label {
+    .create label, .edit label {
     color: #242323;
     font-size: 15px;
-}
+    }
 
-textarea {
+    textarea {
     width: 250px;
-}
+    }
 
-.create, .edit {
-    margin-top: 20px;
-}
+    .create, .edit {
+        margin-top: 20px;
+    }
  
 
 }
 
-form {
-    display: inline-block;
+    form {
+        display: inline-block;
 }
